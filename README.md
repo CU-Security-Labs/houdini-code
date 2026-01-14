@@ -29,8 +29,6 @@ We recommend using [Buildroot](https://buildroot.org/) to create both the kernel
    Example:
 
    ```python
-   from utilities.buildroot_manager import start_vm
-
    kernel_path = "/path/to/buildroot/output/images/bzImage"
    drive_path = "/path/to/buildroot/output/images/rootfs.ext2"
 
