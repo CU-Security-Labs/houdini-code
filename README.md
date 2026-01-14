@@ -24,8 +24,7 @@ We recommend using [Buildroot](https://buildroot.org/) to create both the kernel
    make              # Build kernel and filesystem
    
 3. **Configure Houdini VM**  
-   Go into `utilities/buildroot_manager.py`. In the function argument of `start_vm`, enter the paths of the kernel and the drive (root filesystem). Buildroot will generate both for you.
-
+   Go into `utilities/buildroot_manager.py`. In the function argument of `start_vm`, enter the paths of the kernel and the drive (root filesystem).
    Example:
 
    ```python
